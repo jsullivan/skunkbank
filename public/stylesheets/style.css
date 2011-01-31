@@ -93,14 +93,14 @@ body {
   list-style: none;
   display: block;
   padding: 4px 24px 3px 24px;
-  background-color: #656b80;
+  background-color: #6F758D;
   border-top: 1px solid #7881A6;
   -webkit-border-radius: 5px 5px 0px 0px;
   -moz-border-radius: 5px 5px 0px 0px;
   border-radius: 5px 5px 0px 0px;
-  -webkit-box-shadow: 0px -1px 5px #363A48;
-  -moz-box-shadow: 0px -1px 5px #363A48;
-  box-shadow: 0px -1px 5px #363A48;
+  -webkit-box-shadow: 0px -1px 3px #2c2f3a;
+  -moz-box-shadow: 0px -1px 5px #2c2f3a;
+  box-shadow: 0px -1px 2px #2c2f3a;
 }
 .banner_2 {
   background-image: -webkit-gradient(
@@ -122,8 +122,9 @@ body {
 .banner_3 {
   height: 60px;
   background-color: #2C2F3A;
+  background: url('/images/banner_texture.jpg');
   border-top: 1px solid #5b6173;
-  border-bottom: 1px solid #	;
+  border-bottom: 1px solid #  ;
 }
 .banner_4 {
   background: -webkit-gradient(
