@@ -94,8 +94,6 @@ body {
 .banner_1 {
   background-color: #5b6173;
   padding-top: 25px;
-  border-top: 1px solid #565C76;
-  border-bottom: 1px solid #393E4E;
   height: 32px;
 }
 .banner_1 ul {
@@ -115,8 +113,19 @@ body {
   box-shadow: 0px -1px 5px #363A48;
 }
 .banner_2 {
-  background-color: #4f5564;
-  border-top: 1px solid #5b6173;
+  background-image: -webkit-gradient(
+      linear,
+      left bottom,
+      left top,
+      color-stop(0.56, rgb(77,82,97)),
+      color-stop(0.74, rgb(79,85,100))
+  );
+  background-image: -moz-linear-gradient(
+      center bottom,
+      rgb(77,82,97) 56%,
+      rgb(79,85,100) 74%
+  );
+border-top: 1px solid #7881A6;
   border-bottom: 1px solid #393E4E;
 }
 .banner_3 {
@@ -136,7 +145,7 @@ body {
   background-color: blue;
 }
 .logo {
-  padding: 20px 20px 20px 0px;
+  padding: 25px 20px 20px 0px;
   float: left;
 }
 .tagline {
@@ -147,23 +156,26 @@ body {
 .column_1 {
   letter-spacing: -1px;
   float: left;
-  padding: 12px 24px 12px 0px;
+  padding: 24px 24px 12px 0px;
   width: 332px;
 }
 .column_2 {
   letter-spacing: -1px;
   float: left;
-  padding: 12px;
+  padding: 24px 12px;
   width: 332px;
 }
 .column_3 {
   letter-spacing: -1px;
   float: left;
   width: 356px;
-  padding: 12px 0px 12px 24px;
+  padding: 24px 0px 12px 24px;
   width: 332px;
 }
-
+footer {
+  text-align: right;
+  padding-top: 36px;
+}
 ::selection     {background: rgb(255,255,0);}
 ::-moz-selection  {background: rgb(255,255,0);}
 img::selection    {background: transparent;}
