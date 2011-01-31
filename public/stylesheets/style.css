@@ -69,19 +69,8 @@ figure img {width: 100%;}
 60px  144px  228px  312px  396px  480px  564px  648px  732px  816px  900px  984px  1068px */
 body {
   font-family: Helvetica, sans-serif;
-  background: -webkit-gradient(
-      linear,
-      left bottom,
-      left top,
-      color-stop(0, rgb(0,0,0)),
-      color-stop(0.65, rgb(60,65,77))
-  ) no-repeat;
-  background: -moz-linear-gradient(
-      center bottom,
-      rgb(0,0,0) 0%,
-      rgb(60,65,77) 65%
-  ) no-repeat;
-  min-height: 800px;
+  background-color: #000;
+  min-height: 700px;
   color: #fff;
 }
 .clearfix:after {
@@ -94,7 +83,8 @@ body {
 .banner_1 {
   background-color: #5b6173;
   padding-top: 25px;
-  height: 32px;
+  height: 33px;
+  border-bottom: 1px solid #363947;
 }
 .banner_1 ul {
   float: right;
@@ -125,14 +115,30 @@ body {
       rgb(77,82,97) 56%,
       rgb(79,85,100) 74%
   );
-border-top: 1px solid #7881A6;
-  border-bottom: 1px solid #393E4E;
+  margin-top: 2px;
+  border-top: 1px solid #5b6173;
+  border-bottom: 1px solid #2C2F3A;
 }
 .banner_3 {
   height: 60px;
-  background-color: #474c59;
+  background-color: #2C2F3A;
   border-top: 1px solid #5b6173;
-  border-bottom: 1px solid #393E4E;
+  border-bottom: 1px solid #0C0D0F;
+}
+.banner_4 {
+  background: -webkit-gradient(
+      linear,
+      left bottom,
+      left top,
+      color-stop(0.17, rgb(0,0,0)),
+      color-stop(0.97, rgb(60,66,77))
+  ) no-repeat;
+  background: -moz-linear-gradient(
+      center bottom,
+      rgb(0,0,0) 17%,
+      rgb(60,66,77) 97%
+  ) no-repeat;
+border-top: 1px solid #5b6173;
 }
 .center {
   margin: 0 auto;
@@ -152,6 +158,8 @@ border-top: 1px solid #7881A6;
   letter-spacing: -1px;
   padding-top: 98px;
   float: left;
+ text-shadow: 1px 1px 5px #2c2f3a;
+  filter: dropshadow(color=#2c2f3a, offx=2, offy=2);
 }
 .column_1 {
   letter-spacing: -1px;
